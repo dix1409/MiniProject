@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "257278662825",
+    "firebase_url": "https://e-tuts-default-rtdb.firebaseio.com",
+    "project_id": "e-tuts",
+    "storage_bucket": "e-tuts.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257278662825:android:c5c31917262f5de0cc71b8",
+        "android_client_info": {
+          "package_name": "com.company.sportana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257278662825-0cd900uota0k1jdcus36l0u7h69g0s8i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.company.sportana",
+            "certificate_hash": "f37de49fefbc3366fe6521edadd1d62f993d7585"
+          }
+        },
+        {
+          "client_id": "257278662825-tbrke466mhrd6n996kg4utrkbiu1fb86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1dIn-fP17UzSfsGb59MG2SHwrYp5uUwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257278662825-mklbvk64rq06qrb5g3ti4r35rpf3jvc6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "257278662825-21p11vihe4ud6g10h8p2tkhv1avmvnh4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.company.sportana"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257278662825:android:b99c52a75d8e0e87cc71b8",
+        "android_client_info": {
+          "package_name": "test.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257278662825-4o02jf1d06v5ro9i1jp3vr4e57akl51n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "test.com",
+            "certificate_hash": "88696092957e6a7a2f710ed77e0770932f55a9ff"
+          }
+        },
+        {
+          "client_id": "257278662825-tbrke466mhrd6n996kg4utrkbiu1fb86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1dIn-fP17UzSfsGb59MG2SHwrYp5uUwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257278662825-mklbvk64rq06qrb5g3ti4r35rpf3jvc6.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "257278662825-21p11vihe4ud6g10h8p2tkhv1avmvnh4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.company.sportana"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,111 @@
+{
+  "expo": {
+    "name": "Sportana",
+    "scheme": "https",
+    "slug": "Sportana",
+    "version": "1.4.5",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./Photo/splashimage.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#75c475"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSRemindersUsageDescription": "Automatically add reminder for activities in the app to your default calendar",
+        "NSLocationWhenInUseUsageDescription": "Turning on location services allow us to show you nearby activities",
+        "NSLocationUsageDescription": "Turning on location services allow us to show you nearby activities",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Turning on location services allow us to show you nearby activities",
+        "NSCameraUsageDescription": "Take a photo for your profile picture",
+        "NSCalendarsUsageDescription": "Automatically add activities in the app to your default calendar"
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyCcN6s8ippd7mIFFE6tMcY8nFMffg83BuA"
+      },
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "bundleIdentifier": "com.company.sportana",
+      "usesAppleSignIn": true
+    },
+    "android": {
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "https",
+              "host": "sportanatest.page.link",
+              "pathPrefix": "/"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.READ_CALENDAR",
+        "android.permission.WRITE_CALENDAR",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.company.sportana",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCcN6s8ippd7mIFFE6tMcY8nFMffg83BuA"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 33,
+            "targetSdkVersion": 31
+          }
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/logo.png",
+          "color": "#ffffff"
+        }
+      ],
+      [
+        "expo-apple-authentication"
+      ],
+      "expo-build-properties"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "b08e6126-5331-4afa-a579-0c208159004a"
+      }
+    }
+  }
+}

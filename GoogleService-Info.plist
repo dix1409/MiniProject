@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>257278662825-21p11vihe4ud6g10h8p2tkhv1avmvnh4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.257278662825-21p11vihe4ud6g10h8p2tkhv1avmvnh4</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBfabQSNnkVxuoBKN1FSGbAbysH6Ok3HKI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>257278662825</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.company.sportana</string>
+	<key>PROJECT_ID</key>
+	<string>e-tuts</string>
+	<key>STORAGE_BUCKET</key>
+	<string>e-tuts.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:257278662825:ios:f2b6cd4b15d3107bcc71b8</string>
+	<key>DATABASE_URL</key>
+	<string>https://e-tuts-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
